@@ -1,14 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import {
-    IconDoctor,
-    IconDoctorActive,
-    IconHospitals,
-    IconHospitalsActive,
-    IconMessages,
-    IconMessagesActive
+  IconDoctor,
+  IconDoctorActive,
+  IconHospitals,
+  IconHospitalsActive,
+  IconMessages,
+  IconMessagesActive,
 } from '../../../assets';
-import { colors, fonts } from '../../../utils';
+import {colors, fonts} from '../../../utils';
 
 export default function TabItem({title, active, onPress, onLongPress}) {
   const Icon = () => {
